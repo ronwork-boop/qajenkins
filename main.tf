@@ -14,7 +14,7 @@ provider "azurerm" {
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "jenkinssaar47xl"
+    resource_group_name  = "jenkins-sa-ar47xl"
     storage_account_name = "jenkinsstatear47xl"
     container_name       = "terraform-state"
     key                  = "terraform.tfstate"
